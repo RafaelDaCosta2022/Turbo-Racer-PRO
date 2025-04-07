@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turbo Racer PRO</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>🚗 Turbo Racer PRO 🏁</h1>
+  <div class="hud">
+    <div>Pontos: <span id="pontuacao">0</span></div>
+    <div>Vidas: <span id="vidas">❤️❤️❤️</span></div>
+  </div>
+  <div id="gameContainer">
+    <div id="carro"></div>
+    <div id="gameOver">
+      <h2>GAME OVER</h2>
+      <p>Pontuação Final: <span id="finalScore">0</span></p>
+      <button onclick="reiniciarJogo()">Jogar Novamente</button>
+    </div>
+    <div id="pauseMenu">
+      <h2>JOGO PAUSADO</h2>
+      <button onclick="continuarJogo()">Continuar</button>
+      <button onclick="reiniciarJogo()">Reiniciar</button>
+    </div>
+  </div>
+  <button id="pauseButton" onclick="pausarJogo()">⏸️ Pausar</button>
+  
+  <script src="script.js"></script>
+</body>
+</html>
