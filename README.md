@@ -1,46 +1,45 @@
+# 🏎️ Turbo Racer PRO
 
-🏎️ Turbo Racer PRO
 Turbo Racer PRO é um jogo de corrida retrô em 2D desenvolvido com HTML, CSS e JavaScript puro. Com uma pegada arcade clássica, o jogador controla um carro esportivo desviando de obstáculos, coletando power-ups e tentando sobreviver o maior tempo possível.
 
-🎮 Funcionalidades
-Seleção de carro com visual personalizável
+## 🎮 Funcionalidades
 
-Obstáculos dinâmicos com efeitos de brilho
+- ✉️ Seleção de carro com visual personalizável
+- 🚨 Obstáculos dinâmicos com efeitos de brilho
+- ✨ Power-ups animados para bônus e vidas extras
+- 🔢 HUD com pontuação e número de vidas
+- ⏸️ Menus de Pausa e Game Over com design retrô
+- 📊 Layout responsivo e estilizado com fonte arcade (Press Start 2P)
 
-Power-ups animados para bônus e vidas extras
+## 💻 Tecnologias Utilizadas
 
-HUD com pontuação e número de vidas
+- HTML5
+- CSS3 (incluindo animações e gradientes)
+- JavaScript (manipulação de DOM, lógica de jogo, timers)
 
-Menus de Pausa e Game Over com design retrô
+## 📆 Estrutura do Projeto
 
-Layout responsivo e estilizado com fonte arcade (Press Start 2P)
+```
+TurboRacerPRO/
+├── index.html        # Estrutura da página
+├── style.css         # Estilização visual do jogo
+└── script.js         # Lógica e interações do jogo
+```
 
-💻 Tecnologias
-HTML5
+## 📷 Screenshot
 
-CSS3 (incluindo animações e gradientes)
+![Screenshot do jogo](screenshot.png)
 
-JavaScript (manipulação de DOM, lógica de jogo, timers)
+## ✨ Como Jogar
 
-📦 Organização
-O projeto segue boas práticas com arquivos separados:
+1. Abra o `index.html` em um navegador moderno
+2. Use as setas do teclado para mover o carro
+3. Desvie dos obstáculos e colete os power-ups verdes!
+4. Pressione `P` para pausar
 
-index.html – Estrutura da página
+---
 
-style.css – Estilização visual do jogo
+Criado com ❤️ por Rafael Da Costa Basilio
 
-script.js – Lógica e interações
-
-📷 Screenshot
-(Adicione aqui uma imagem do jogo em execução)
-
-🚀 Como jogar
-Abra o index.html em um navegador moderno
-
-Use as setas do teclado para mover o carro
-
-Desvie dos obstáculos e colete os power-ups verdes!
-
-Pressione P para pausar
-
+Sinta-se à vontade para contribuir, sugerir melhorias ou reportar bugs! 🚀
 
